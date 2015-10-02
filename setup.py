@@ -14,7 +14,7 @@ with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
 setup(
     name='pysend',
 
-    version='0.0.3',
+    version='0.0.4',
 
     description='Unified interface for sending email',
     long_description=long_description,

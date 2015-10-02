@@ -19,7 +19,7 @@ def _outputEmail(email):
       msg['Cc'] = ccOutput
    return msg.as_string()
 
-class SmtpServer(pysend.Server):
+class Server(classes.Server):
    def __init__(self, domain, port, sender, password):
       self.domain = domain
       self.port = port

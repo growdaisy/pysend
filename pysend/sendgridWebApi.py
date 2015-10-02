@@ -2,7 +2,7 @@ import requests
 from .classes import Contact, Email
 from . import classes
 
-class SendGridWebApiServer(Server):
+class Server(classes.Server):
    def __init__(self, url, apiKey):
       self.url = url
       self.apiKey = apiKey

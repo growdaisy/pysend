@@ -1,6 +1,8 @@
 import requests
+from .classes import Contact, Email
+from . import classes
 
-class SendGridWebApiServer(pysend.Server):
+class SendGridWebApiServer(Server):
    def __init__(self, url, apiKey):
       self.url = url
       self.apiKey = apiKey

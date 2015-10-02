@@ -1,6 +1,8 @@
 import smtplib
 from email.mime.text import MIMEText
 from email.header import Header
+from .classes import Contact, Email
+from . import classes
 
 def _outputContact(contact):
    return "{} <{}>".format(contact.name, contact.email)

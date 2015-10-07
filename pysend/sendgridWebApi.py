@@ -26,4 +26,4 @@ class Server(classes.Server):
          'html': email.body
       }
 
-      requests.post(sendgridUrl, headers=headers, data=payload)
+      requests.post(self.url, headers=headers, data=payload)
